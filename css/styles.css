@@ -1,0 +1,56 @@
+/* This was just to show the stacking of elements.
+* {
+    border: 2px solid red;
+}
+*/
+
+main, section, article, aside, footer, header, nav, hgroup {
+    display: block;
+}
+
+body {
+    font: 100% Verdana, Helvetica, sans-serif;
+    background-color: rgb(25,25,65);
+    color: rgb(252,255,245);
+}
+
+#main-nav-logo {
+    height: 70px;
+}
+
+header {
+    background-color: rgb(62,96,111);
+}
+
+article {
+    background-color: rgb(62,96,111);
+    padding: 1rem;
+}
+
+aside {
+    background-color: rgb(62,96,111);
+    padding: 1rem;
+}
+
+aside section {
+    border: 1px solid rgb(209,219,189);
+    margin-bottom: 1rem;
+    width: 45%;
+}
+
+figure {
+    background-color: rgb(25,52,65);
+    border: 2px solid rgb(209,219,189);
+    padding: 1rem;
+}
+
+figure img {
+    /*max-width: 100%;*/
+    width: 100%;
+}
+
+figcaption {
+    font-size: .8rem;
+    font-variant: small-caps;
+    font-weight: bold;
+}
