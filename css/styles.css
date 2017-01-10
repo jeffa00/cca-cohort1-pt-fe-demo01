@@ -14,13 +14,73 @@ body {
     color: rgb(252,255,245);
 }
 
+.main-logo {
+    float: left;
+}
+
 #main-nav-logo {
     height: 70px;
 }
 
 header {
     background-color: rgb(62,96,111);
+    margin-bottom: .5rem;
 }
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(252,255,245);
+}
+
+#main-wrapper {
+    width: 100%;
+    /*border: 2px solid green;*/
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    width: 60%;
+    float: left;
+    margin-right: .5rem;
+    /*border: 1px solid red;*/
+}
+
+aside {
+    width: 33%;
+    float: left;
+    /*border: 1px solid red;    */
+}
+
+/*footer {
+    clear: both;
+}*/
 
 article {
     background-color: rgb(62,96,111);
@@ -35,13 +95,14 @@ aside {
 aside section {
     border: 1px solid rgb(209,219,189);
     margin-bottom: 1rem;
-    width: 45%;
+    width: 100%;
 }
 
 figure {
     background-color: rgb(25,52,65);
     border: 2px solid rgb(209,219,189);
     padding: 1rem;
+    float: left;
 }
 
 figure img {
