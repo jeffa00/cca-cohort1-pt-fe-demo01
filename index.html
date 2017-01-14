@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>CCA News Network</title>
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/styles-mobile-first.css" rel="stylesheet">
 </head>
 <body>
     <header class="clearfix">
@@ -28,7 +28,13 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis, diam id bibendum mollis, augue tortor sagittis mauris, in dignissim tortor enim ut odio. Fusce in sapien sed eros ullamcorper dictum. Duis at euismod dolor, nec elementum diam. Praesent fermentum porta orci ultricies aliquam. Vivamus porta nunc tellus, sit amet porttitor nulla fermentum at. Etiam purus est, fermentum sed varius at, sollicitudin eu dolor. Nam rutrum velit ut consequat facilisis. Quisque scelerisque magna in dolor sagittis tempor. Nunc vel gravida nulla. Donec mattis luctus diam, at posuere odio consequat eget. Etiam dignissim ac metus et viverra. Praesent semper, nisl ut suscipit blandit, felis magna vestibulum erat, ac rhoncus neque purus vel ligula.
                 </p>
                 <figure>
-                    <img src="/images/cca-entrance-small.png" alt="CCA Entrance">
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="/images/cca-entrance-880.jpg, /images/cca-entrance-1760.jpg 2x">
+                        <source media="(max-width: 450px)" srcset="/images/cca-entrance-220.jpg, /images/cca-entrance-440.jpg 2x">
+                        <img src="/images/cca-entrance-440.jpg" srcset="/images/cca-entrance-440.jpg, /images/cca-entrance-880.jpg 2x" alt="CCA Entrance">
+                    </picture>
+
+
                     <figcaption>
                         Welcome to Code Career Academy's Entrance!
                     </figcaption>
